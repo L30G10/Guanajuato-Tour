@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelector(".btn");e&&e.addEventListener("click",function(e){e.preventDefault();const t=this.getAttribute("href"),o=document.querySelector(t);window.scrollTo({top:o.offsetTop,behavior:"smooth"})})});
